@@ -176,7 +176,7 @@ func (ad *TransactionDao) FetchAllActiveActions() ([]model.Transaction, error) {
 		SELECT
 			code,
 			companyId,
-			jobProfileId,
+			jobProfileId
 		FROM transactions
 	`
 

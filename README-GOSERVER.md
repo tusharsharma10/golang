@@ -1,16 +1,10 @@
-# Sample RestAPI
-
-# Dev Setup
-
-## Prerequisites
+## Sample RestAPI
 
 ### Essential
 
 - Go 1.20
 
-### NON Essential (Specific to API)
-
-## Steps For Basic Setup
+### Steps For Basic Setup
 
 1. check presence of development.env file
 
@@ -24,7 +18,9 @@
    go env GOPATH
    ```
 
-## Starting the API's
+---
+
+### Starting the API's
 
 1. Execute following to run go server:
 
@@ -38,9 +34,17 @@
 
    `curl 'localhost:7000/dopamine/v1/healthcheck'`
 
-## Extras
+---
+
+### Extras
 
 1. Install [air](https://github.com/cosmtrek/air), this will help in auto-reloading of your server whenever you save any change.
 2. To start server with this you just need to enter `air` in commandline.
 3. Install [golangci lint](https://golangci-lint.run/usage/install/).
 4. This will help to follow better coding standards.
+
+---
+
+### How things are working
+
+---

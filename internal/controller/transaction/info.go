@@ -31,5 +31,5 @@ func (ac *Controller) Info(c *gin.Context) {
 		panic(err)
 	}
 
-	c.JSON(http.StatusOK, helpers.NewResponse(presentActionsInfo(result), nil))
+	c.JSON(http.StatusOK, helpers.NewResponse(result, nil))
 }
