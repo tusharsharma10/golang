@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"restapi/helpers"
 	"restapi/logger"
+	helpers "restapi/util"
 
 	"github.com/IBM/sarama"
 )

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"restapi/helpers"
+	helpers "restapi/util"
 
 	"github.com/IBM/sarama"
 )
